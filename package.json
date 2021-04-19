@@ -1,0 +1,37 @@
+{
+  "name": "text-water-mask",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack build --mode=production && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/text-water-mask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/text-water-mask/issues"
+  },
+  "homepage": "https://github.com/postor/text-water-mask#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "deepmerge": "^4.2.2",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/deepmerge": "^2.2.0",
+    "@types/react": "^17.0.3",
+    "react": "^17.0.2",
+    "ts-loader": "^9.0.0",
+    "typescript": "^4.2.4"
+  }
+}
