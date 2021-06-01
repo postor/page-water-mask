@@ -1,6 +1,6 @@
 {
   "name": "text-water-mask",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "支持 js 和 react 的文本水印 | text water-mask for js and react",
   "main": "dist/index.js",
   "files": [
@@ -23,15 +23,15 @@
   "homepage": "https://github.com/postor/text-water-mask#readme",
   "dependencies": {
     "base-64": "^1.0.0",
-    "deepmerge": "^4.2.2",
-    "webpack": "^5.33.2",
-    "webpack-cli": "^4.6.0"
+    "deepmerge": "^4.2.2"
   },
   "devDependencies": {
     "@types/deepmerge": "^2.2.0",
     "@types/react": "^17.0.3",
     "react": "^17.0.2",
     "ts-loader": "^9.0.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
   }
 }
