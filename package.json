@@ -1,7 +1,7 @@
 {
   "name": "text-water-mask",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "支持 js 和 react 的文本水印 | text water-mask for js and react",
   "main": "dist/index.js",
   "files": [
     "dist"

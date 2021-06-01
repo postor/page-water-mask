@@ -1,5 +1,7 @@
 # text-water-mask
 
+支持 js 和 react 的文本水印 | text water-mask for js and react
+
 ![screenshot](./examples/basic/screenshot.jpg)
 
 高性能 | high performance  
@@ -43,7 +45,7 @@ react umd
 react commonjs
 
 ```
-let ReactTextWaterMask = require('text-water-mask/dist/react')
+import ReactTextWaterMask from 'text-water-mask/dist/react'
 ReactDOM.render(<div style={{position:'relative'}}>
   <input />
   <p>hello world!</p>
